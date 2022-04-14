@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lobster&family=Roboto:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Lobster&family=Roboto:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding:0;
+}
+nav
+{font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    height:55px;
+    background-color: black;
+    color:white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width:44px;
+    padding:0 8px;
+    }
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+   color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin:23px auto;
+    width: 70%;
+    border-radius: 12px;
+padding:34px;
+background-image: url('background.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.bottom{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    
+}
+.icons{
+    margin:12px 4px;
+    padding:0 14px;
+    
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width:80vw;
+    cursor: pointer;
+}
+.songitem{
+    height:50px;
+    display: flex;
+    background-color: white;
+    width:80%;
+    color:black;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songitem img{
+    width:43px;
+    margin:0 23px;
+    height:30px;
+    border-radius: 50px;
+    background-color: white;
+}
+.timestamp{
+    margin:0 23px;
+    
+}
+.timestamp i{
+    
+    cursor: pointer;
+}
+.songinfo{
+    position:absolute;
+    left:10%;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+    
+    
+    opacity: 0;
+    transition:opacity 0.4s ease-in;
+     
+ }

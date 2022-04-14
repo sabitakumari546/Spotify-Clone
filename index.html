@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best Of NCS-No Copyright Sounds</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Tere Siva Jag Mein</span>
+                    <span class="songlistplay"><span class="timestamp">04:30<i id="0" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songname">Zara Zara</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i id="1" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songname">Rait Zara si</span>
+                    <span class="songlistplay"><span class="timestamp">05:00<i id="2" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songname">Ghana Kasoota</span>
+                    <span class="songlistplay"><span class="timestamp">03:34<i id="3" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songname">Dil mein ho tum</span>
+                    <span class="songlistplay"><span class="timestamp">02:34<i id="4" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songname">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">02:34<i id="5" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songname">Blue Eyes</span>
+                    <span class="songlistplay"><span class="timestamp">05:01<i id="6" class="far songitemplay fa-circle-play"></i></span></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="songbanner">
+
+
+        </div>
+        
+    </div>
+    <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class="icons">
+                <i class="fa fa-2x fa-backward-step" id="previous"></i>
+                <i class="fa fa-2x fa-circle-play" id="masterplay"></i>
+                <i class="fa fa-2x fa-forward-step" id="next"></i>
+            </div>
+            <div class="songinfo">
+            <img src="songplaying.gif" width="42px" alt="" id="gif"><span id="mastersongname">Tere siva jag mein</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/47d290f164.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
